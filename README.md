@@ -160,6 +160,10 @@ To run tests, run the following command:
 - [ ] **[Create a directory called components.]**
 - [ ] **[Inside components, create a new Books.js file.]**
 - [ ] **[In Books.js, create a React component that matches given design]**
+Project 2: Add reducers and actions.
+Project 3: Use Redux in React components.
+Project 4: Connect to API.
+Project 5: Styling.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
