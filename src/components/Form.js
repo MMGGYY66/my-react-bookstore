@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Form = () => (
   <form>
     <label htmlFor="title">

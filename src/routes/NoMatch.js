@@ -1,3 +1,5 @@
+import React from 'react';
+
 const NoMatch = () => (
   <div>
     <p>Not found!</p>
