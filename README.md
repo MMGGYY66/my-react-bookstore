@@ -210,7 +210,7 @@ I would like to thank Microverse for giving me the chance to improve my coding.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/MMGGYY66/my-react-bookstore/blob/dev/MIT.md)
+This project is [MIT](https://github.com/MMGGYY66/my-react-bookstore/blob/bookstore-setup/MIT.md)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
