@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-import Books from './routes/Books';
-import Categories from './routes/Categories';
-import NoMatch from './routes/NoMatch';
+import Books from './components/routes/Books';
+import Categories from './components/routes/Categories';
+import NoMatch from './components/routes/NoMatch';
 
 function App() {
   return (

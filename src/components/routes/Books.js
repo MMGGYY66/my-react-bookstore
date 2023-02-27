@@ -1,6 +1,6 @@
 import React from 'react';
-import Book from '../components/Book';
-import Form from '../components/Form';
+import Book from '../Book';
+import Form from '../Form';
 
 const Books = () => {
   const books = [
