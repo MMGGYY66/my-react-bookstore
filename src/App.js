@@ -1,20 +1,32 @@
+import './App.css';
+import { Link, Route, Routes } from 'react-router-dom';
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import Books from './components/routes/Books';
-import Categories from './components/routes/Categories';
-import NoMatch from './components/routes/NoMatch';
+import Categories from './components/Categories';
+import Books from './components/books';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Books />} />
-        <Route path="books" element={<Books />} />
-        <Route path="categories" element={<Categories />} />
-        <Route path="*" element={<NoMatch />} />
-      </Route>
-    </Routes>
+    <div className="App">
+      <header className="App-header">
+        <h1>
+          BOOKSTORE CMS
+        </h1>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Books</Link>
+            </li>
+            <li>
+              <Link to="/categories">categories</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <Routes>
+        <Route path="/" element={<Books />} />
+        <Route path="/categories" element={<Categories />} />
+      </Routes>
+    </div>
   );
 }
 
