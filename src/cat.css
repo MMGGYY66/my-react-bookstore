@@ -4,13 +4,25 @@
   --lightblue: #4386bf;
 }
 
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 button {
   color: white;
   border: none;
-  width: 11.5rem;
-  height: 2.813rem;
-  margin: 1.188rem 0 0 2.125rem;
-  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
-  border-radius: 3px;
+  padding: 24px;
+  font-size: 18px;
+  border-radius: 24px;
   background-color: var(--azure);
+}
+
+.status {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
 }
