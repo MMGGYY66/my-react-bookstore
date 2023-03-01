@@ -1,10 +1,10 @@
-import '../cat.css';
+import React from 'react';
 
-function Categories() {
-  return (
-    <div style={{ display: 'flex', justifyContent: 'center' }}>
-      <button type="button">Check status</button>
-    </div>
-  );
-}
+const Categories = () => (
+  <div className="absolute inset-2/4 inset-x-1/3">
+
+    <p className="text-red-600 mt-1.5">Under construction</p>
+  </div>
+);
+
 export default Categories;
