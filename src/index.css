@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -11,7 +12,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #e3e4e8;
 }
 
 :root {
@@ -29,7 +29,6 @@ body {
   cursor: pointer;
 }
 
-/* ========================= NAVBAR COMPONENT ================ */
 .header {
   border-bottom: 1px solid var(--white);
   padding: 0 7rem 0 7rem;
@@ -39,7 +38,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .block1 {
@@ -57,6 +56,7 @@ a {
   display: flex;
   gap: 3rem;
   list-style: none;
+  list-style: none;
   align-items: center;
   align-content: center;
   padding: 10px;
@@ -70,16 +70,19 @@ a {
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
+  margin-left: 12px;
   letter-spacing: normal;
   color: #0290ff;
 }
 
 .books {
+  font-size: 0.813rem;
+  font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.9px;
-  color: #4a4343;
+  color: #6e6767;
   font-weight: bold;
   font-size: 18px;
 }
@@ -87,12 +90,13 @@ a {
 .categories {
   opacity: 0.5;
   font-size: 0.813rem;
+  font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   font-weight: bold;
   letter-spacing: 1.9px;
-  color: #1c1111;
+  color: #240b0b;
 }
 
 .oval {
@@ -107,6 +111,7 @@ a {
   border-radius: 50%;
 }
 
+/* ============== Progress COMPONENT ================== */
 .progressInfo {
   height: 5rem;
   display: flex;
@@ -207,7 +212,10 @@ a {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 5rem;
+  background-color: #FAFAFA;
+  box-shadow: 32px 32px 34px #a9a9a9;
+  margin: 55px 144px;
+  padding: 12px 0 244px;
 }
 
 .libraryEmpty {
@@ -219,11 +227,10 @@ a {
   align-items: center;
   justify-content: space-between;
   height: 10.625rem;
-  margin: 0 5rem 0 5rem;
   padding: 2rem 9.188rem 1.625rem 1.688rem;
   border-radius: 14px;
   border: solid 1px var(--white);
-  background-color: #fafafa;
+  background-color: #fff;
 }
 
 .bookInfo {
@@ -294,8 +301,8 @@ a {
 .actionItem:hover {
   background-color: #0290ff;
   color: #fff;
-  font-weight: 700;
-  border-radius: 10px;
+    font-weight: 700;
+border-radius: 10px;
 }
 
 .separator {
@@ -382,8 +389,8 @@ a {
 }
 
 .formSection {
-  margin: 0 5rem 0 5rem;
-  flex: 1;
+    margin: 0 10rem 0 1rem;  
+    flex: 1;
 }
 
 form {
@@ -410,7 +417,7 @@ form :first-child {
 .inputField {
   padding: 1em;
   color: var(--input-text);
-  border-radius: 14px;
+  border-radius: 6px;
   border: solid 1px var(--white);
   background-color: #fff;
   outline: none;
@@ -420,7 +427,7 @@ form :first-child {
   width: 11.5rem;
   padding: 1em;
   border: none;
-  border-radius: 13px;
+  border-radius: 6px;
   background-color: #0290ff;
   cursor: pointer;
   font-family: 'Roboto Slab', serif;
@@ -434,11 +441,11 @@ form :first-child {
   color: #fff;
 }
 
-.addBook:hover {
-  background-color: #fff;
+.addBook:hover{
+    background-color: #fff;
   color: #0290ff;
-}
 
+}
 /* Categories Page */
 .categoriesContainer {
   display: flex;
