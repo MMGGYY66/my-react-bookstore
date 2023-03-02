@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* ============= Global ========== */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,8 +12,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /*  background-color: #333; */
+   background-color: #333;
 }
 
 :root {
@@ -82,7 +80,7 @@ a {
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.9px;
-  color: #240b0b;
+  color: #e7dbdb;
   font-weight: bold;
   font-size: 18px;
 }
@@ -95,7 +93,7 @@ a {
   line-height: normal;
   font-weight: bold;
   letter-spacing: 1.9px;
-  color: #240b0b;
+  color: #e8d1d1;
 }
 
 .oval {
