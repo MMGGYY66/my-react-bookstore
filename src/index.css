@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Poppins&family=Roboto&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 
 * {
@@ -12,7 +11,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: ##E3E4E8;
+  background: #e3e4e8;
 }
 
 :root {
@@ -224,7 +223,7 @@ a {
   padding: 2rem 9.188rem 1.625rem 1.688rem;
   border-radius: 14px;
   border: solid 1px var(--white);
-  background-color: ##FAFAFA;
+  background-color: #fafafa;
 }
 
 .bookInfo {
