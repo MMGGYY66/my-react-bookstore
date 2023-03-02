@@ -1,33 +1,27 @@
-import './App.css';
-import { Link, Route, Routes } from 'react-router-dom';
-import React from 'react';
-import Categories from './components/Categories';
-import Books from './components/books';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  Route,
+} from 'react-router-dom';
+
+// Pages
+import RootLayout from './Components/RootLayout/RootLayout';
+import BooksPage from './pages/Books/BooksPage';
+import CategoriesPage from './pages/Categories/CategoriesPage';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayout />}>
+      <Route index element={<BooksPage />} />
+      <Route index path="books" element={<BooksPage />} />
+      <Route path="categories" element={<CategoriesPage />} />
+    </Route>,
+  ),
+);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          BOOKSTORE CMS
-        </h1>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Books</Link>
-            </li>
-            <li>
-              <Link to="/categories">categories</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <Routes>
-        <Route path="/" element={<Books />} />
-        <Route path="/categories" element={<Categories />} />
-      </Routes>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
