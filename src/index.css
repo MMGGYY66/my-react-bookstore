@@ -13,7 +13,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-/*  background-color: #333;*/
+
+  /*  background-color: #333; */
 }
 
 :root {
@@ -59,7 +60,6 @@ a {
   display: flex;
   gap: 3rem;
   list-style: none;
-  list-style: none;
   align-items: center;
   align-content: center;
   padding: 10px;
@@ -78,8 +78,6 @@ a {
 }
 
 .books {
-  font-size: 0.813rem;
-  font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -92,7 +90,6 @@ a {
 .categories {
   opacity: 0.5;
   font-size: 0.813rem;
-  font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -305,8 +302,8 @@ a {
 .actionItem:hover {
   background-color: #0290ff;
   color: #fff;
-    font-weight: 700;
-border-radius: 10px;
+  font-weight: 700;
+  border-radius: 10px;
 }
 
 .separator {
@@ -445,11 +442,11 @@ form :first-child {
   color: #fff;
 }
 
-.addBook:hover{
-    background-color: #fff;
+.addBook:hover {
+  background-color: #fff;
   color: #0290ff;
-
 }
+
 /* Categories Page */
 .categoriesContainer {
   display: flex;
