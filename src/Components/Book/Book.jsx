@@ -14,54 +14,55 @@ const Book = ({ book }) => {
     dispatch(removeBookFromAPI(id));
   };
   return (
-    <div className="bookContainer">
-      <div className="bookInfo">
-        <div className="infos">
-          <span className="bookCategory">{category}</span>
-          <span className="bookTitle">{title}</span>
-          <span className="bookAuthor">{author}</span>
+    <div className="booksWrapper">
+      <div className="bookContainer">
+        <div className="bookInfo">
+          <div className="infos">
+            <span className="bookCategory">{category}</span>
+            <span className="bookTitle">{title}</span>
+            <span className="bookAuthor">{author}</span>
+          </div>
+          <ul className="actions">
+            <li>
+              <span className="actionItem">Comment</span>
+            </li>
+            <li>
+              <span className="separator">|</span>
+            </li>
+            <li>
+              <button
+                className="actionItem"
+                type="button"
+                onClick={handleRemoveBook}
+              >
+                Remove
+              </button>
+            </li>
+            <li>
+              <span className="separator">|</span>
+            </li>
+            <li>
+              <span className="actionItem">Edit</span>
+            </li>
+          </ul>
         </div>
-        <ul className="actions">
+        <ul className="bookProgress">
           <li>
-            <span className="actionItem">Comment</span>
+            <Progress />
           </li>
           <li>
-            <span className="separator">|</span>
-          </li>
-          <li>
-            <button
-              className="actionItem"
-              type="button"
-              onClick={handleRemoveBook}
-            >
-              Remove
-            </button>
-          </li>
-          <li>
-            <span className="separator">|</span>
-          </li>
-          <li>
-            <span className="actionItem">Edit</span>
+            <div className="currentChapterContainer">
+              <span className="currentChapter">
+                Current Chapter
+              </span>
+              <span className="chapter">Chapter 17</span>
+              <button className="updateBtn" type="button">
+                Update progress
+              </button>
+            </div>
           </li>
         </ul>
       </div>
-      <ul className="bookProgress">
-        <li><Progress /></li>
-        <li>
-          <div className="currentChapterContainer">
-            <span className="currentChapter">
-              Current Chapter
-            </span>
-            <span className="chapter">
-              Chapter 17
-            </span>
-            <button className="updateBtn" type="button">Update progress</button>
-          </div>
-
-        </li>
-
-      </ul>
-
     </div>
   );
 };

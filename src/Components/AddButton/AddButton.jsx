@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const AddButton = ({ className }) => (
   <button className={className} type="submit">
-    ADD NEW BOOK
+    ADD BOOK
   </button>
 );
 
