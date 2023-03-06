@@ -93,7 +93,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-<!-- [math-magicians](https://mmggyy66.github.io/my-react-bookstore/) -->
+[my-react-bookstore](https://aspiring-cup.surge.sh/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
