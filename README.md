@@ -136,7 +136,7 @@ To run tests, run the following command:
  <code>npm test</code>
 
 ### Deployment
-<!-- [math-magicians](https://mmggyy66.github.io/my-react-bookstore/) -->
+# [my-react-bookstore](https://aspiring-cup.surge.sh/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
